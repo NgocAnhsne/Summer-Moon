@@ -1,0 +1,347 @@
+/*! RESET STYLE */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  color: black;
+  scroll-behavior: smooth;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.row-max-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.hidden {
+  display: none !important;
+}
+/* ! CUSTOM STYLE */
+.website {
+  overflow: hidden;
+}
+/* header */
+.header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.header__menu-responsive {
+  display: none;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.header__logo-img {
+  width: 90px;
+  transition: 0.4s;
+}
+.header__logo-img:hover {
+  transform: scale(1.2);
+}
+.header__menu-list-item {
+  padding: 10px 20px;
+  color: #696969;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+/* slider */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.slider {
+  position: relative;
+  background-image: url("./img/slider.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  padding-top: 50%;
+}
+.slider-left {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  font-size: 1.5vw;
+}
+.slider-left-textH2 {
+  color: #383838;
+  font-size: 6.5vw;
+}
+.slider-left-textP {
+  font-size: 1.4vw;
+  max-width: 56%;
+  margin: 1.4vw 0 0;
+}
+.slider-left-textH2:first-child {
+  font-style: italic;
+}
+.slider-left-btn {
+  margin-top: 1.4vw;
+  padding: 1vw 3vw;
+  background-color: #758bda;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4vw;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.slider-left-btn:hover {
+  background-color: #383838;
+  transition: 0.4s;
+}
+.slider-right {
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  width: 15%;
+  text-align: center;
+}
+.slider-right-btn {
+  background-color: transparent;
+  color: #fff;
+  font-size: 5vw;
+  padding: 0 1vw;
+  cursor: pointer;
+}
+.slider-right-btn:hover {
+  color: #383838;
+  transition: 0.4s;
+}
+/* banner */
+.banner {
+  margin-top: 2.2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-left {
+  position: relative;
+  margin-right: 1.8vw;
+  color: #383838;
+}
+.banner__text-left {
+  position: absolute;
+  top: 58%;
+  left: 66%;
+  cursor: pointer;
+}
+.banner__text-heading-1 {
+  font-size: 4vw;
+  font-weight: lighter;
+}
+.banner__text-heading-2 {
+  font-size: 4vw;
+}
+.banner-right {
+  position: relative;
+  color: #383838;
+}
+.banner__text-right {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  cursor: pointer;
+}
+.banner__text-p {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+.banner__text-left:hover {
+  color: rgb(115, 151, 73);
+}
+.banner-left:hover .banner__text-left {
+  color: rgb(115, 151, 73);
+}
+.banner__text-right:hover {
+  color: rgb(115, 151, 73);
+}
+.banner-right:hover .banner__text-right {
+  color: rgb(115, 151, 73);
+}
+/* products */
+.products {
+  margin-bottom: 2vw;
+  width: 100%;
+}
+.products__text {
+  font-size: 4vw;
+}
+.products__text span {
+  font-weight: lighter;
+}
+.products__list {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.products__list-item {
+  width: 24%;
+  text-align: center;
+}
+.products__img {
+  cursor: pointer;
+  overflow: hidden;
+}
+.products__img img {
+  transform: scale(1.3);
+  transition: all 0.4s;
+}
+.products__img img:hover {
+  transform: scale(1);
+}
+.product__item-textP {
+  margin-top: 1vw;
+  font-weight: lighter;
+  font-size: 1.5vw;
+}
+.product__item-text-heading {
+  margin-top: 1vw;
+  font-size: 2.5vw;
+  color: rgb(115, 151, 73);
+}
+.product__item-text-heading span {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.products__item-btn {
+  margin-top: 1.2vw;
+  font-size: 1.2vw;
+  background-color: #758bda;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1.5vw 5vw;
+  border-radius: 2.7vw;
+  cursor: pointer;
+}
+.products__item-btn:hover {
+  background-color: #383838;
+  transition: 0.4s;
+}
+/* bannerEnd */
+.bannerEnd {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.bannerEnd-left {
+  position: relative;
+  margin-right: 1.9vw;
+  color: #383838;
+}
+.bannerEnd__text-left {
+  position: absolute;
+  top: 19%;
+  left: 76%;
+  cursor: pointer;
+}
+.bannerEnd__text-heading-1 {
+  font-size: 4vw;
+  font-weight: lighter;
+}
+.bannerEnd__text-heading-2 {
+  font-size: 4vw;
+}
+.bannerEnd-right {
+  position: relative;
+  color: #383838;
+}
+.bannerEnd__text-right {
+  position: absolute;
+  top: 35%;
+  left: 71%;
+  cursor: pointer;
+}
+.bannerEnd__text-p {
+  font-size: 1.7vw;
+  text-transform: uppercase;
+}
+.bannerEnd__text-left:hover {
+  color: rgb(115, 151, 73);
+}
+.bannerEnd-left:hover .bannerEnd__text-left {
+  color: rgb(115, 151, 73);
+}
+.bannerEnd__text-right:hover {
+  color: rgb(115, 151, 73);
+}
+.bannerEnd-right:hover .bannerEnd__text-right {
+  color: rgb(115, 151, 73);
+}
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 3vw;
+  margin-top: 2vw;
+}
+.footer__item {
+  width: 100%;
+}
+.footer__item:first-of-type {
+  padding-right: 2vw;
+  margin-right: 2vw;
+}
+.footer__logo {
+  height: auto;
+  width: 20vw;
+  margin-right: 1vw;
+}
+.footer__heading {
+  font-size: 2vw;
+  margin-bottom: 1.4vw;
+}
+.footer__row {
+  display: flex;
+  align-items: center;
+}
+.footer__text-p {
+  font-size: 1vw;
+}
+.footer__address {
+  font-style: normal;
+  color: black;
+  font-size: 1.5vw;
+}
+.footer__link {
+  color: #000;
+  font-size: 1.2vw;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}

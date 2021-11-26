@@ -1,0 +1,139 @@
+@media screen and (min-width: 1200px) {
+  .footer__link {
+    font-size: 14.4px;
+  }
+  .footer__address {
+    font-size: 18px;
+  }
+  .footer__text-p {
+    font-size: 12px;
+  }
+  .footer__heading {
+    margin-bottom: 16.8px;
+    font-size: 24px;
+  }
+  .footer__logo {
+    width: 240px;
+    margin-right: 12px;
+  }
+  .footer__item:first-of-type {
+    padding-right: 24px;
+    margin-right: 24px;
+  }
+  .footer {
+    margin-bottom: 36px;
+    margin-top: 24px;
+  }
+  .bannerEnd__text-p {
+    font-size: 20.4px;
+  }
+  .bannerEnd__text-heading-2 {
+    font-size: 48px;
+  }
+  .bannerEnd__text-heading-1 {
+    font-size: 48px;
+  }
+  .bannerEnd-left {
+    margin-right: 22.8px;
+  }
+  .bannerEnd {
+    margin-top: 24px;
+  }
+  .products__item-btn {
+    margin-top: 14.4px;
+    font-size: 14.4px;
+    padding: 18px 60px;
+    border-radius: 32.4px;
+  }
+  .product__item-text-heading span {
+    font-size: 18px;
+  }
+  .product__item-text-heading {
+    margin-top: 12px;
+    font-size: 30px;
+  }
+  .product__item-textP {
+    margin-top: 12px;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  .products__list {
+    margin-top: 24px;
+  }
+  .products__text {
+    font-size: 48px;
+  }
+  .products {
+    margin-bottom: 24px;
+  }
+  .banner__text-p {
+    font-size: 20.4px;
+  }
+  .banner__text-heading-2 {
+    font-size: 48px;
+  }
+  .banner__text-heading-1 {
+    font-size: 48px;
+  }
+  .banner-left {
+    margin-right: 22.8px;
+  }
+  .banner {
+    margin-top: 24px;
+  }
+  .slider-right-btn {
+    font-size: 60px;
+    padding: 0 12px;
+  }
+  .slider-left-btn {
+    margin-top: 16.8px;
+    padding: 12px 36px;
+    font-size: 16.8px;
+    border-radius: 25px;
+  }
+  .slider-left-textP {
+    font-size: 16.8px;
+    margin: 16.8px 0 0;
+  }
+  .slider-left-textH2 {
+    font-size: 78px;
+  }
+  .slider-left {
+    font-size: 18px;
+  }
+  .header__menu-list-item {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header {
+    margin-bottom: 0;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__menu-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+  }
+  .header__menu-responsive-btn {
+    margin: 15px 0;
+    background-color: #758bda;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 5px;
+  }
+  .header__menu-list-responsive {
+    text-align: center;
+    width: 100%;
+  }
+  .header__menu-list-responsive-item {
+    border-top: 1px solid rgb(180, 179, 179);
+    padding: 10px 0;
+  }
+}
